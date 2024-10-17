@@ -1,0 +1,311 @@
+
+/*APP CSS---------------------------------------------------------------------------------------------------------------*/
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  height: 100%
+}
+
+.nav{
+  background-color: rgb(43, 39, 39);
+  width: 17%;
+  height: 100vh;
+}
+
+.card{
+  overflow: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+/*NAV CSS:------------------------------------------------------------------------------------------------------------- */
+
+
+
+.tituloApp{
+  display: flex;
+}
+.im{
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+.nav-menu{
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.Ex{
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-decoration: underline;
+}
+
+span{
+  margin-left: 1rem;
+}
+
+img{
+  margin-left: 4rem;
+}
+
+.sidebar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 20px;
+}
+
+.sidebar-menu a {
+  color: #ccc;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.sidebar-menu a:hover {
+  color: white;
+}
+
+
+li.i{
+ width: 100%;
+ margin-top: 1rem;
+ margin-left: 4em;
+}
+
+.titulo, .subtitulo{
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+
+  
+
+
+
+/*HEADER CSS------------------------------------------------------------------------------------------------------------*/
+
+.header{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  background-color: rgb(0, 0, 0)
+}
+
+.titulo-logo{
+  position: absolute;
+ margin-left: 2rem;
+ margin-top: 1%;
+}
+
+.ul{
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 60%;
+}
+
+li{
+  margin-right: 10rem;
+}
+
+.botones{
+ margin-top: 1rem;
+  margin-left: 80%;
+}
+
+.register-button{
+margin-right: 1rem;
+background-color: #6F4C3E; 
+color: white; 
+border: none; 
+border-radius: 5px; 
+padding: 10px 20px; 
+font-size: 16px;
+cursor: pointer; 
+transition: background-color 0.3s; 
+
+}
+
+.login-button{
+  margin-right: 1rem;
+  background-color: #6F4C3E; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px;
+  font-size: 16px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  
+
+}
+
+
+/*MUSICCARD-------------------------------------------------------------------------------------------------------------*/
+
+/* Estilos adicionales para que las imágenes se ajusten */
+.music-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.music-card {
+  margin-bottom: 20px;
+}
+
+.row{
+  margin-left: 4rem;
+  margin-left: 4rem;
+  margin-bottom: 4rem;   
+}
+
+.card-body{
+  text-align: center;  
+}
+
+.art1,.art2{
+  width: 75%;
+  text-align: center;
+}
+
+
+/*REGISTER--------------------------------------------------------------------------------------------------------------*/
+ 
+.registration-form {
+  background-color:#6F4C3E; /* Fondo claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  max-width: 400px; /* Ancho máximo */
+  margin: 20px auto; /* Centrado */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h2 {
+  text-align: center; /* Centrar el título */
+  color:black; /* Color café */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espaciado entre grupos */
+}
+
+label {
+  display: block; /* Ocupa toda la línea */
+  margin-bottom: 5px; /* Espaciado inferior */
+  color: black; /* Color del texto */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde suave */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 14px; /* Tamaño de fuente */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #6F4C3E; /* Borde color café al enfocar */
+  outline: none; /* Sin contorno por defecto */
+}
+
+.submit-button {
+  background-color: #6F4C3E; /* Color café */
+  color: white; /* Texto en blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 15px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: background-color 0.3s; /* Transición suave */
+  width: 100%; /* Ancho completo */
+}
+
+.submit-button:hover {
+  background-color: #5a3e33; /* Color más oscuro al pasar el ratón */
+}
+
+/*LOGIN------------------------------------------------------------------------------------------------------------------*/
+
+.login-form {
+  background-color:#6F4C3E; /* Fondo claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  max-width: 400px; /* Ancho máximo */
+  margin: 20px auto; /* Centrado */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h2 {
+  text-align: center; /* Centrar el título */
+  color: black /* Color café */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espaciado entre grupos */
+}
+
+label {
+  display: block; /* Ocupa toda la línea */
+  margin-bottom: 5px; /* Espaciado inferior */
+  color: black; /* Color del texto */
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde suave */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 14px; /* Tamaño de fuente */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #6F4C3E; /* Borde color café al enfocar */
+  outline: none; /* Sin contorno por defecto */
+}
+
+.submit-button {
+  background-color: #6F4C3E; /* Color café */
+  color: white; /* Texto en blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 15px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: background-color 0.3s; /* Transición suave */
+  width: 100%; /* Ancho completo */
+}
+
+.submit-button:hover {
+  background-color: #5a3e33; /* Color más oscuro al pasar el ratón */
+}
+
+/*PAGINA2---------------------------------------------------------------------------------------------------------------*/
+
+.Bienvenido{
+  text-align: center;
+  margin-bottom: -2rem;
+}
